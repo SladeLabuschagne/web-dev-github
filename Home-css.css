@@ -1,4 +1,57 @@
-img{
+#home-hero{
+    height: 900px;
     width: 100%;
-    
+    background-image: url("/Media/Photos/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    z-index: 0;
+
+}
+
+#hero-content{
+    width: 600px;
+    background-color: rgba(51, 47, 47, 0.5);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0px;
+    margin: auto;
+    position: relative;
+    top: 35%;
+}
+
+#hero-content h1{
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "raleway", "sans-serif";
+    margin: 0;
+}
+
+#hero-content p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+#hero-content a{
+    background-color: rgb(255, 251, 0) ;
+    padding: 12px 36px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 6px;
+}
+
+#hero-content a:hover{
+    background-color: rgba(255, 251, 0, 0.05);
+    border: 1px solid rgb(255, 251, 0);
+    color: aliceblue;
 }
