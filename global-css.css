@@ -2,12 +2,39 @@ body {
     font-family: 'Quicksand', 'sand-serif';
 }
 
-#page-logo > a{
+header {
+    background-color: rgba(192, 192, 192, 0.212);
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-top: -1em;
+}
+
+#page-logo a{
     font-family: 'Oleo Script', 'sand-serif';
-    font-size: 50px;
+    font-size: 3em;
     color: hsl(49, 100%, 61%);
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.25);
-    padding: 20px;
+}
+
+#home-header ul {
+    background-color: rgba(192, 192, 192, 0.212);
+    list-style: none;
+    width: 400px;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+}
+
+#home-header li {
+    width: 100px;
 }
