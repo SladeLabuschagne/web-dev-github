@@ -1,0 +1,33 @@
+header {
+    background-color: rgba(192, 192, 192, 0.212);
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1em 4em;
+    margin-top: -1em;
+}
+
+#page-logo a{
+    font-family: 'Oleo Script', 'sand-serif';
+    font-size: 3em;
+    color: hsl(49, 100%, 61%);
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.25);
+}
+
+#home-header ul {
+    background-color: rgba(192, 192, 192, 0.212);
+
+    width: 400px;
+
+    display: flex;
+    justify-content: end;
+    text-align: right;
+}
+
+#home-header li {
+    font-size: 1.25em;
+    width: 150px;
+}
