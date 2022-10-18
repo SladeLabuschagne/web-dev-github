@@ -1,15 +1,20 @@
 header {
-    background-color: rgba(192, 192, 192, 0.3);
+    background-color: rgba(192, 192, 192, 0.466);
     
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     position: sticky;
     box-sizing: border-box;
 
-    margin: -0.5em;
+    top: 0;
     padding: 2em 4em 1em;
     z-index: 10;
+}
+
+#destinations-header {
+    background: linear-gradient(70deg, rgb(24,24,24), rgb(25,29,29));
+    color: rgb(11, 46, 75);
 }
 
 #page-logo a{
@@ -20,7 +25,11 @@ header {
     text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.25);
 }
 
-#home-header ul {
+#destinations-header #page-logo a {
+    color: rgb(20, 79, 128);
+}
+
+header ul {
 
     width: 400px;
 
@@ -29,8 +38,29 @@ header {
     text-align: right;
 }
 
-#home-header li {
+header li a {
     color: rgb(255, 245, 198);
-    font-size: 1.25em;
+    font-size: 1.5em;
     width: 150px;
+    padding: 0.5em;
+    margin: 2em;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.25);
 }
+
+header li a:hover {
+    color: rgb(75, 75, 75);
+    background-color: rgb(255, 245, 198);
+    width: 150px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.25);
+}
+
+#destinations-header li a {
+    color: rgb(36, 111, 173);
+}
+
+#destinations-header li a:hover {
+    background-color: rgba(133, 133, 133, 0.178);
+    color: rgb(108, 173, 226);
+}
+

@@ -1,13 +1,11 @@
+
 #home-hero{
     height: 900px;
     width: 100%;
     background-image: url("/Media/Photos/ocean.jpg");
     background-position: center;
     background-size: cover;
-    position: absolute;
-    left: 0px;
-    top: 0;
-    z-index: 0;
+    margin-top: -115px;
 
 }
 
@@ -55,3 +53,51 @@
     border: 1px solid rgb(255, 251, 0);
     color: aliceblue;
 }
+
+#highlights {
+    padding: 100px;
+    background-color: rgba(25, 50, 78, 0.205);
+    background: linear-gradient(-180deg, rgb(237, 255, 254), rgb(202,243,240));
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: rgb(26, 76, 117);
+}
+
+#destinations {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.destination {
+    margin: 0 10px;
+    color: rgb(29, 29, 29);
+}
+
+.destination p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.destination strong{
+    color: rgb(11, 46, 75);
+}
+
+
+.destination img{
+    height: 220px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 5px;
+    object-fit: cover;
+}
+
