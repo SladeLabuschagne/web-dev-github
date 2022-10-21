@@ -1,5 +1,5 @@
 header {
-    background-color: rgba(192, 192, 192, 0.466);
+    
     
     display: flex;
     justify-content: space-between;
@@ -13,8 +13,12 @@ header {
 }
 
 #destinations-header {
-    background: linear-gradient(70deg, rgb(34, 34, 34), rgb(37, 37, 37));
+    background-color: rgba(36, 36, 36, 0.7);
     color: rgb(11, 46, 75);
+}
+
+#home-header {
+    background-color: rgba(192, 192, 192, 0.466);
 }
 
 #page-logo a{
